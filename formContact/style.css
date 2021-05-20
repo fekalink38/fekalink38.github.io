@@ -1,0 +1,22 @@
+.module{
+    padding: 50px 80px 50px 80px;
+    background-color: rgba(255, 255, 255, 0.219);
+    border-radius: 15px;
+}
+.image{
+    background-image: url('contact-background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
