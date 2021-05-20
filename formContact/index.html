@@ -14,17 +14,17 @@
     <div class="image">
 
         <div class="module">
-            <form>
+            <form action="https://formsubmit.co/leonard.maron@gmail.com" method="POST">
                 <div class="mb-2">
                   <label for="exampleInputEmail1" class="form-label">Adresse Email</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <input name='email' type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                 </div>
                 <div class="mb-2">
                   <label for="exampleInputPassword1" class="form-label">Nom</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
+                  <input name="name" type="password" class="form-control" id="exampleInputPassword1">
                 </div>
                 <div class="form-floating mb-2">
-                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                    <textarea name="text" class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
                     <label for="floatingTextarea2">Ecrire vortre message...</label>
                 </div>
                 <button type="submit" class="btn btn-dark">Envoyer</button>
