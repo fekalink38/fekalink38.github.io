@@ -1,0 +1,125 @@
+.background1{
+    background-image: url('img/lyon.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-primary{
+    background-color: rgb(255, 0, 19)!important;
+}
+.logo{
+    width: 100px;
+}
+.navBar{
+    justify-content: space-around;
+    align-items: center;
+
+}
+.partiUn{
+    width: 40%;
+}
+.partiDeux{
+    width: 50%;
+    display: flex;
+    align-content: center;
+}
+.orgaBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.h1Body{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.185);
+}
+.bodyBgUn{
+    display: flex;
+}
+.pourcentageannonces{
+    width: 80%;
+    margin-inline: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.pourcentageannonces>img{
+    height: 200px;
+    width: auto;
+}
+
+
+.background2{
+    background-color: white;
+}
+.annonces{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+.card{
+    width: 18rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.background3{
+    background-color: rgb(234, 229, 229);
+    width: 100%;
+}
+.champText{
+    height: 22rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.champText>h1{
+    font-size: 3em;
+}
+.progressText{
+    align-items: center;
+    text-align: center;
+}
+.blocProgress{
+    margin-top: 50px;
+    margin-inline: 10%;
+    width: 80%;
+}
+
+
+.logoFooter{
+    width: 100px;    
+}
+.footer>h2{
+    text-align: center;
+    margin: 20px;
+}
+.pourcentageFooter{
+    width: 80%;
+
+}
+.packFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoReseaux{
+    width: 20%;
+    height: 20%;
+}
+.reseauxPack{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    margin-inline: auto;
+}
